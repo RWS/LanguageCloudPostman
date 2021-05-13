@@ -17,11 +17,11 @@ We make use of collection level variables and an inherited authentication mechan
 
 For exaple, the authentication is already set up to use the Bearer Token scheme and will use the token value provided by `{{lc-access-token}}` variable. This token is being populated with the correct value each time you `Obtain a client credentials access token`, via the Tests tab.
 
-One thing you need to do before proceeding is to fill in the `{{tenant}}` variable with your own tenant id. Prepend the id with LC- so the final value looks like `LC-00000000000000000`
+One thing you need to do before proceeding is to fill in the `{{lc_tenant}}` variable with your own tenant id. Prepend the id with LC- so the final value looks like `LC-00000000000000000`
 
 Don't forget to save the collection!
 
-![image](https://user-images.githubusercontent.com/10993097/118104638-0e5fb200-b3e4-11eb-9c09-bd709fe87240.png)
+![image](https://user-images.githubusercontent.com/10993097/118111273-250a0700-b3ec-11eb-910b-23cfd490695a.png)
 
 
 ### Authentication
@@ -37,5 +37,10 @@ If the authentication is successful, the token will be extracted automatically f
 
 After you have authenticated successfully, you can start interacting with the Language Cloud API.
 
-For example, we can get information about a project by using the GetProject request from the Project folder.
+For example, we can get information about a project by using the **GetProject** request from the **Project** folder.
+
+Simply fill in your `projectId` and click SEND. Optionally, you can supply values to the `fields` paramater to recieve only data that is of interrest.
+
+![image](https://user-images.githubusercontent.com/10993097/118110695-68b04100-b3eb-11eb-8356-5bd6e21185c8.png)
+
 
