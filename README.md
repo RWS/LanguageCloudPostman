@@ -21,7 +21,7 @@ One thing you need to do before proceeding is to fill in the `{{lc_tenant}}` var
 
 Don't forget to save the collection!
 
-![image](https://user-images.githubusercontent.com/10993097/118111273-250a0700-b3ec-11eb-910b-23cfd490695a.png)
+![image](https://user-images.githubusercontent.com/10993097/130009444-9dc0e314-7763-46aa-ad8d-20cfda3510de.png)
 
 
 ### Authentication
